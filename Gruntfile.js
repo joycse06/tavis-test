@@ -1,4 +1,4 @@
-moduel.exports = function(grunt){
+module.exports = function(grunt){
 
 	grunt.initConfig({
 		jshint: {
@@ -6,6 +6,6 @@ moduel.exports = function(grunt){
 		}
 	});
 
-	grunt.loadNpmTasks('grunt-contrib-js');
+	grunt.loadNpmTasks('grunt-contrib-jshint');
 	grunt.registerTask('default','jshint');
-}
+};
