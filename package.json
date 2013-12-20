@@ -5,5 +5,8 @@
 		"grunt" : "*",
 		"grunt-cli" : "*",
 		"grunt-contrib-jshint" : "*"
+	},
+	"scripts": {
+		"test" : "grunt --verbose"
 	}
 }
